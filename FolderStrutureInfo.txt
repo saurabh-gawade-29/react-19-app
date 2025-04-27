@@ -1,0 +1,74 @@
+src/
+│
+├── assets/                   # Static files (images, fonts, etc.)
+│   ├── images/
+│   ├── fonts/
+│   └── styles/               # Global SCSS or CSS files
+│       ├── variables.scss
+│       ├── mixins.scss
+│       └── globals.scss
+│
+├── components/               # Reusable components
+│   ├── common/               # Shared components (e.g., Button, Modal)
+│   │   ├── Button/
+│   │   │   ├── Button.jsx
+│   │   │   ├── Button.test.jsx
+│   │   │   └── Button.module.scss
+│   │   └── Modal/
+│   │       ├── Modal.jsx
+│   │       ├── Modal.test.jsx
+│   │       └── Modal.module.scss
+│   └── layout/               # Layout-specific components (e.g., Navbar, Footer)
+│       ├── Navbar/
+│       ├── Footer/
+│       └── Sidebar/
+│
+├── features/                 # Feature-specific components or modules
+│   ├── auth/
+│   │   ├── LoginForm.jsx
+│   │   ├── RegisterForm.jsx
+│   │   └── authSlice.js      # Redux slice or state management logic
+│   └── dashboard/
+│       ├── Dashboard.jsx
+│       └── Dashboard.test.jsx
+│
+├── hooks/                    # Custom hooks
+│   ├── useAuth.js
+│   └── useFetch.js
+│
+├── pages/                    # Page components (mapped to routes)
+│   ├── Home/
+│   │   ├── Home.jsx
+│   │   └── Home.module.scss
+│   ├── About/
+│   │   ├── About.jsx
+│   │   └── About.module.scss
+│   └── Error404/
+│       ├── Error404.jsx
+│       └── Error404.module.scss
+│
+├── services/                 # API calls and external service integrations
+│   ├── api/
+│   │   ├── axiosConfig.js    # Axios instance configuration
+│   │   └── userService.js    # API methods for user-related operations
+│   └── firebase.js           # Firebase configuration (if applicable)
+│
+├── state/                    # Global state management
+│   ├── store.js              # Redux or Zustand store
+│   └── slices/               # Redux slices or Zustand stores
+│       ├── userSlice.js
+│       └── themeSlice.js
+│
+├── tests/                    # Utility functions for testing
+│   ├── setupTests.js         # Jest setup (e.g., mock server, globals)
+│   └── test-utils.js         # Custom render methods
+│
+├── utils/                    # Helper functions and utilities
+│   ├── constants.js          # App-wide constants
+│   ├── helpers.js            # General helper functions
+│   └── validation.js         # Input validation logic
+│
+├── App.jsx                   # Main App component
+├── main.jsx                  # Entry point (Vite uses main.jsx)
+├── router.js                 # React Router configuration
+└── index.html                # HTML template (Vite default)
