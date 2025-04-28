@@ -7,7 +7,11 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import NotFound from './pages/NotFound/NotFound';
+//! All the css
 import "./App.css"
+//! Global Css
+import "./assets/styles/global.css"
+import "./assets/styles/variable.css"
 
 const router = createBrowserRouter([
   {
