@@ -7,6 +7,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import NotFound from './pages/NotFound/NotFound';
+import Country from './pages/Country/Country';
 //! All the css
 import "./App.css"
 //! Global Css
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "about", element: <About /> },
+      { path: "country", element: <Country /> },
       { path: "contact", element: <Contact /> },
     ],
   }

@@ -7,7 +7,9 @@ const Rootlayout = () => {
     return (
         <>
             <Navbar />
-            <Outlet />
+            <div className="container py-4">
+                <Outlet />
+            </div>
             <Footer />
         </>
     )
