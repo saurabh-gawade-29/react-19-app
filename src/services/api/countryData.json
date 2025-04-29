@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1400000000,
+      "interestingFacts": "India is the world's largest democracy and the second-most populous country."
+    },
+    {
+      "id": 2,
+      "countryName": "United States",
+      "capital": "Washington, D.C.",
+      "population": 331000000,
+      "interestingFacts": "The United States is home to the world's largest economy."
+    },
+    {
+      "id": 3,
+      "countryName": "China",
+      "capital": "Beijing",
+      "population": 1440000000,
+      "interestingFacts": "China has the Great Wall, one of the seven wonders of the world."
+    },
+    {
+      "id": 4,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": 125800000,
+      "interestingFacts": "Japan is known for its technology and traditional culture, including sushi and samurai."
+    },
+    {
+      "id": 5,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 214000000,
+      "interestingFacts": "Brazil is famous for its Carnival festival and the Amazon rainforest."
+    },
+    {
+      "id": 6,
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": 84000000,
+      "interestingFacts": "Germany is known for its engineering, beer, and the Oktoberfest festival."
+    },
+    {
+      "id": 7,
+      "countryName": "United Kingdom",
+      "capital": "London",
+      "population": 67000000,
+      "interestingFacts": "The UK has a rich history, including the monarchy and the Tower of London."
+    },
+    {
+      "id": 8,
+      "countryName": "South Africa",
+      "capital": "Pretoria (executive), Bloemfontein (judicial), Cape Town (legislative)",
+      "population": 60000000,
+      "interestingFacts": "South Africa is known as the 'Rainbow Nation' due to its diverse cultures."
+    },
+    {
+      "id": 9,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": 26000000,
+      "interestingFacts": "Australia is famous for the Great Barrier Reef and unique wildlife like kangaroos."
+    }
+  ]
+  
