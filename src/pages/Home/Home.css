@@ -1,0 +1,8 @@
+.wrapHeroContent {
+    min-height: 20rem;
+}
+
+.tourImg {
+    height: 18rem;
+    object-fit: none;
+}

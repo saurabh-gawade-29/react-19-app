@@ -1,5 +1,17 @@
- body {
-    background-color: var(--background-color);
-    color: var(--font-color);
-  }
-  
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+.caGap {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.caButton {
+  padding: 0.4rem;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  border: 2px solid var(--font-color);
+  border-radius: 2rem;
+}
