@@ -7,7 +7,7 @@ const Rootlayout = () => {
     return (
         <>
             <Navbar />
-            <div className="container py-4">
+            <div className="container py-2 mb-4">
                 <Outlet />
             </div>
             <Footer />

@@ -1,6 +1,8 @@
 import React from 'react'
 import tourImage from '../../assets/images/travel-concept-with-worldwide-landmarks-removebg-preview.png'
 import "./Home.css"
+import countryData from "../../services/api/countryData.json"
+import CCard from '../../components/common/CCard/CCard'
 const Home = () => {
     return (
         <>
@@ -21,11 +23,24 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                        <div className="d-flex align-items-center wrapHeroContent">
+                        <div className="d-flex justify-content-center align-items-center wrapHeroContent">
                             <img className="img-fluid tourImg" src={tourImage} alt="tourImage" />
                         </div>
                     </div>
                 </div>
+            </div>
+            {/* Country JSON data */}
+            <div className="row">
+                {countryData && countryData.map((country) => (
+                    <div className="col-12 col-sm-12 col-md-4 col-lg-4" key={country.id}>
+                        <CCard
+                            countryName={country.countryName}
+                            capital={country.capital}
+                            population={country.population}
+                            interestingFacts={country.interestingFacts}
+                        />
+                    </div>
+                ))}
             </div>
         </>
     )
