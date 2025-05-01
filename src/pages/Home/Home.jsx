@@ -30,6 +30,9 @@ const Home = () => {
                 </div>
             </div>
             {/* Country JSON data */}
+            <div className="text-center my-4">
+                <h2 className='display-5'>Here are the interesting facts <br /> We're proud of</h2>
+            </div>
             <div className="row">
                 {countryData && countryData.map((country) => (
                     <div className="col-12 col-sm-12 col-md-4 col-lg-4" key={country.id}>
