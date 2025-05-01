@@ -1,5 +1,4 @@
 import React, { forwardRef } from "react";
-import PropTypes from "prop-types";
 
 const CButton = forwardRef((props, ref) => {
     return (
@@ -15,11 +14,6 @@ const CButton = forwardRef((props, ref) => {
     );
 });
 
-CButton.propTypes = {
-    label: PropTypes.string,
-    onClick: PropTypes.func,
-    disabled: PropTypes.bool,
-};
 
 CButton.defaultProps = {
     label: "Submit",
