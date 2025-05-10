@@ -1,0 +1,6 @@
+.card-img-top {
+    height: 200px;
+    /* Set a fixed height for the images */
+    object-fit: contain;
+    /* Ensures images maintain aspect ratio and fill the area */
+}

@@ -12,10 +12,27 @@ const Country = () => {
             console.log(countries)
         })
     }, [])
-
-    if (isPending) return <h1>Loading...</h1>
+    //! In your main project create one loader component
+    if (isPending) return <h4>Loading...</h4>
     return (
-        <>Country</>
+        <section className='my-4'>
+            <div className='row'>
+                {countries.map((ele) => {
+                    return (
+                        <div className='col-12 col-sm-12 col-md-3 col-lg-2 mb-4'>
+                            <div className="card shadow bg-dark">
+                                <div className="card-header text-white">
+                                    {ele.region}
+                                </div>
+                                <div className="card-body">
+                                    <img src={ele.flags.png} alt="" className='img-fluid card-img-top' />
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+        </section>
     )
 }
 
